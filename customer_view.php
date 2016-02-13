@@ -1,10 +1,11 @@
+<!-- this is customer view page -->
 <!DOCTYPE html>
 
 <html>
 	<head>
 		
-			<!-- Website Title & Description for Search Engine purposes -->
-		<title>View Customer Table</title>
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>View Customers</title>
 		<meta name="description" content="Bootstrap Table">
 		
 		<!-- Mobile viewport optimized -->
@@ -15,7 +16,6 @@
 
 	</head>
 	<body>
-
 		<div class="container-fluid">
 			<div class="navbar navbar-fixed-top">
 				<div class="container">
@@ -46,8 +46,9 @@
 
 
 			<div class="row" style="margin-top:80px">
-				<div class="col-sm-8">
+				<div class="col-sm-10">
 					<h2>Add a Customer</h2>
+					<!-- create a bootstrap table -->
 						<div class="table-responsive">
 						  <table class="table table-striped">
 						    <tr>
@@ -100,15 +101,12 @@
 							?>
 
 
-						  </table>
-						</div> <!--
-				</div>
-			</div>	
+						 </table><!-- end table -->
+					</div><!-- end table-responsive -->
+				</div> <!-- End col -->
+			</div>	<!-- end row -->
 
-		</div>
-
-
-	
+		</div><!-- end container-fluid -->
 
 	<!-- Bootstrap JS -->
 	<script src="dist/js/bootstrap.min.js"></script>
