@@ -26,6 +26,7 @@ if(mysqli_query($link, $sql)){
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
  
+ 
 // close connection
 mysqli_close($link);
 ?>
