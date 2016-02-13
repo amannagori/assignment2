@@ -1,10 +1,11 @@
+<!-- this is customer view page -->
 <!DOCTYPE html>
 
 <html>
 	<head>
 		
-			<!-- Website Title & Description for Search Engine purposes -->
-		<title>View Customer Table</title>
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>View Customers</title>
 		<meta name="description" content="Bootstrap Table">
 		
 		<!-- Mobile viewport optimized -->
@@ -15,8 +16,8 @@
 
 	</head>
 	<body>
-
 		<div class="container-fluid">
+			<!-- create a bootstrap table -->
 			<div class="table-responsive">
 			  <table class="table table-striped">
 			    <tr>
@@ -29,7 +30,7 @@
 			    	<th>Email</th>
 			    	<th>Phone</th>
 			    </tr>
-
+			   	<!-- fetch values from database using php script -->
 			    <?php // query.php
 
 						// require_once 'login.php';
@@ -69,13 +70,9 @@
 				?>
 
 
-			  </table>
-			</div>
-
-		</div>
-
-
-	
+			  </table><!-- end table -->
+			</div><!-- end table-responsive -->
+		</div><!-- end container-fluid -->
 
 	<!-- Bootstrap JS -->
 	<script src="dist/js/bootstrap.min.js"></script>
