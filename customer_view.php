@@ -47,7 +47,7 @@
 			<div class="container">
 				<div class="row" style="margin-top:80px">
 					<div class="col-sm-12">
-						<h2>Add a Customer</h2>
+						<h2>View Customer Details</h2>
 						<!-- create a bootstrap table -->
 							<div class="table-responsive">
 							  <table class="table table-striped">
