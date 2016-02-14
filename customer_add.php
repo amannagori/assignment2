@@ -19,7 +19,7 @@ $email = mysqli_real_escape_string($link, $_POST['email']);
 $phone = mysqli_real_escape_string($link, $_POST['phone']);
  
 // attempt insert query execution
-$sql = "INSERT INTO customers (firstName,lastName,address,city,state,zip,email,phone) VALUES ($first_name, $last_name, $address,$city,$state,$zip,$email,$phone)";
+$sql = "INSERT INTO customers (firstName,lastName,address,city,state,zip,email,phone) VALUES ('$first_name', '$last_name', '$address','$city','$state','$zip','$email','$phone')";
 if(mysqli_query($link, $sql)){
     echo "Records added successfully.";
 } else{
